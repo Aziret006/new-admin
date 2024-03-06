@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Sidebar from "./components/Cart-Item/cart-item";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Section from "./components/Section/Section";
+import CartbBlock from "./components/cart-block/Cart-block";
+import ProfileStrength from "./components/react/React";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       {/* <Sidebar /> */}
+      {/* { / *<ProfileStrength /> */} 
+      <Header />
+      <Main />
+      <Section />
+      <CartbBlock />
     </div>
   );
 }
